@@ -1,2 +1,5 @@
 # private files
 private
+
+# OS-generated files
+*.DS_Store
