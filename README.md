@@ -3,7 +3,7 @@
 Welcome to my personal portfolio website! This project showcases my experience, skills, and projects as a Computer Science student and web developer. It features a modern, dark-themed design and interactive 3D elements.
 
 ##  Live Demo
-[Check out the live site here](https://francis-ohara.github.io/)
+[Check out the live site here](https://francisohara.com/)
 
 ## Features
 *   **Modern Aesthetics**: GitHub-inspired dark mode styling with glassmorphism effects on the navbar.
