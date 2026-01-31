@@ -1,410 +1,426 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Francis O'Hara Aidoo - Computer Science Major & Software Engineer">
-    <title>Francis O'Hara Aidoo | Software Engineer</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Francis O'Hara Aidoo - Computer Science Major & Software Engineer">
+        <title>Francis O'Hara Aidoo | Software Engineer</title>
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+            rel="stylesheet">
 
-    <!-- Bootstrap 5 CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Bootstrap 5 CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="assets/css/style.css">
 
-    <!-- Font Awesome for Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
+        <!-- Font Awesome for Icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </head>
 
-<body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="100">
+    <body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="100">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#"> <img class="rounded-circle" src="assets/images/profile_pic.jpg"
-                    style="width: 45px; height: 100%; border: 2px solid rgb(71, 50, 87); object-fit: cover;"> &nbsp
-                Francis O'Hara
-                Aidoo</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon" style="filter: invert(1);"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section id="home" class="hero-section">
-        <div class="container">
-            <div class="row align-items-center position-relative" style="z-index: 1;">
-                <div class="col-lg-7">
-                    <h4 class="text-primary-custom mb-3">Hello, I'm</h4>
-                    <h1 class="hero-name">Francis O'Hara Aidoo</h1>
-                    <h2 class="h3 mb-4 text-white">Computer Science Major at Colby College</h2>
-                    <p class="lead mb-5 text-secondary">
-                        I'm passionate about neural networks and building full stack applications that solve real-world
-                        problems.
-                        I specialize in full stack Web Development, Machine Learning, and Cloud Infrastructure.
-                    </p>
-                    <div class="d-flex gap-3">
-                        <a href="#projects" class="btn btn-primary-custom">View Projects</a>
-                        <a href="#contact" class="btn btn-outline-custom">Contact Me</a>
-                    </div>
-                </div>
-            </div>
-            <!-- 3D Model Container (Absolute Positioned) -->
-            <div id="three-container" class="d-none d-lg-block"
-                style="position: absolute; right: 0; top: 0; width: 100%; height: 100%; z-index: 0;"></div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="mb-5"><span class="text-primary-custom">01.</span> About Me</h2>
-                    <p class="lead text-secondary">
-                        I am a Computer Science major at Colby College with a concentration in Artificial Intelligence.
-                        I'm passionate about neural networks and building full stack applications that solve real-world
-                        problems.
-                    </p>
-                    <p class="text-secondary">
-                        With experience ranging from Software Engineering internships at Google to
-                        Teaching Assistant roles,
-                        I thrive in challenging environments that require deep technical knowledge and creative problem
-                        solving.
-                    </p>
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills">
-        <div class="container">
-            <h2 class="mb-5"><span class="text-primary-custom">02.</span> Technical Skills</h2>
-            <div class="row">
-                <!-- Languages -->
-                <div class="col-md-6 col-lg-4 mb-4">
-                    <div class="card h-100 p-4">
-                        <h4 class="h5 mb-3 text-white"><i class="fas fa-code me-2 text-primary-custom"></i> Languages
-                        </h4>
-                        <div class="d-flex flex-wrap">
-                            <span class="badge-skill">Python</span>
-                            <span class="badge-skill">Go</span>
-                            <span class="badge-skill">Java</span>
-                            <span class="badge-skill">C</span>
-                            <span class="badge-skill">JavaScript</span>
-                            <span class="badge-skill">TypeScript</span>
-                            <span class="badge-skill">SQL</span>
-                            <span class="badge-skill">VHDL</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Frameworks -->
-                <div class="col-md-6 col-lg-4 mb-4">
-                    <div class="card h-100 p-4">
-                        <h4 class="h5 mb-3 text-white"><i class="fas fa-layer-group me-2 text-primary-custom"></i>
-                            Frameworks</h4>
-                        <div class="d-flex flex-wrap">
-                            <span class="badge-skill">FastAPI</span>
-                            <span class="badge-skill">Flask</span>
-                            <span class="badge-skill">React</span>
-                            <span class="badge-skill">Next.js</span>
-                            <span class="badge-skill">Node.js</span>
-                            <span class="badge-skill">SQLAlchemy</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Cloud & DevOps -->
-                <div class="col-md-6 col-lg-4 mb-4">
-                    <div class="card h-100 p-4">
-                        <h4 class="h5 mb-3 text-white"><i class="fas fa-cloud me-2 text-primary-custom"></i> Cloud &
-                            DevOps</h4>
-                        <div class="d-flex flex-wrap">
-                            <span class="badge-skill">Terraform</span>
-                            <span class="badge-skill">Docker</span>
-                            <span class="badge-skill">Kubernetes</span>
-                            <span class="badge-skill">GCP</span>
-                            <span class="badge-skill">AWS</span>
-                            <span class="badge-skill">GitHub Actions</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Data & AI -->
-                <div class="col-md-6 col-lg-4 mb-4">
-                    <div class="card h-100 p-4">
-                        <h4 class="h5 mb-3 text-white"><i class="fas fa-brain me-2 text-primary-custom"></i> Data & AI
-                        </h4>
-                        <div class="d-flex flex-wrap">
-                            <span class="badge-skill">Vertex AI</span>
-                            <span class="badge-skill">Apache Beam</span>
-                            <span class="badge-skill">PyTorch</span>
-                            <span class="badge-skill">TensorFlow</span>
-                            <span class="badge-skill">Scikit-Learn</span>
-                            <span class="badge-skill">Pandas</span>
-                            <span class="badge-skill">Matplotlib/Seaborn</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Hardware & Embedded -->
-                <div class="col-md-6 col-lg-4 mb-4">
-                    <div class="card h-100 p-4">
-                        <h4 class="h5 mb-3 text-white"><i class="fas fa-microchip me-2 text-primary-custom"></i>
-                            Hardware</h4>
-                        <div class="d-flex flex-wrap">
-                            <span class="badge-skill">Raspberry Pi</span>
-                            <span class="badge-skill">Arduino</span>
-                            <span class="badge-skill">FPGA</span>
-                            <span class="badge-skill">3D Printing</span>
-                            <span class="badge-skill">Laser Cutting</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <h5 class="text-white mt-4 mb-3">Relevant Coursework:</h5>
-            <div class="d-flex flex-wrap gap-2 mb-4">
-                <span class="badge-skill">Software Engineering</span>
-                <span class="badge-skill">Data Structures</span>
-                <span class="badge-skill">Operating Systems</span>
-                <span class="badge-skill">Computer Org</span>
-                <span class="badge-skill">Neural Networks</span>
-                <span class="badge-skill">Computer Vision</span>
-                <span class="badge-skill">Statistical Modeling</span>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- Experience Section -->
-    <section id="experience">
-        <div class="container">
-            <h2 class="mb-5"><span class="text-primary-custom">03.</span> Experience</h2>
-
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <h4 class="text-white">Google</h4>
-                <p class="text-primary-custom mb-1">Software Engineering Intern</p>
-                <p class="text-secondary small">May 2025 – Aug 2025 | Sunnyvale, CA</p>
-                <div class="text-secondary">
-                    <ul>
-                        <li>Engineered a <strong>Terraform resource</strong> in <strong>Go</strong> for deploying
-                            generative AI models at scale on Google Cloud <strong>Vertex AI</strong>, unblocking a
-                            $19.2MM ARR opportunity for Google Cloud partners.</li>
-                        <li>Discovered and resolved a critical race condition in the Vertex AI backend preventing
-                            parallel deployments by refactoring ID generation logic to use cryptographically secure
-                            <strong>UUIDs</strong> in <strong>Java</strong>; validated fix with comprehensive
-                            <strong>JUnit</strong> and <strong>Mockito</strong> test suites.
-                        </li>
-                        <li>Implemented a chat-based <strong>AI agent</strong> for discovering, deploying, and running
-                            inference on large language models on Vertex AI using <strong>Python</strong> and Google
-                            Agent Development Kit (ADK).</li>
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#"> <img class="rounded-circle" src="assets/images/profile_pic.jpg"
+                        style="width: 45px; height: 100%; border: 2px solid rgb(71, 50, 87); object-fit: cover;"> &nbsp
+                    Francis O'Hara
+                    Aidoo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon" style="filter: invert(1);"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
+        </nav>
 
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <h4 class="text-white">Google</h4>
-                <p class="text-primary-custom mb-1">Software Engineering Intern</p>
-                <p class="text-secondary small">May 2024 – Aug 2024 | Seattle, WA</p>
-                <div class="text-secondary">
-                    <ul>
-                        <li>Engineered a high-performance, schema-aware <strong>Apache Beam</strong> transform in
-                            <strong>Java</strong> for processing CSV data, capable of achieving a throughput of
-                            <strong>3 billion+ CSV records/hour</strong> on <strong>Google Cloud Dataflow</strong>.
-                        </li>
-                        <li>Implemented robust fault tolerance by routing malformed records to a <strong>Dead Letter
-                                Queue (DLQ)</strong>, ensuring zero data loss during the ingestion of multi-terabyte
-                            datasets.</li>
-                    </ul>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="container">
+                <div class="row align-items-center position-relative" style="z-index: 1;">
+                    <div class="col-lg-7">
+                        <h4 class="text-primary-custom mb-3">Hello, I'm</h4>
+                        <h1 class="hero-name">Francis O'Hara Aidoo</h1>
+                        <h2 class="h3 mb-4 text-white">Computer Science Major at Colby College</h2>
+                        <p class="lead mb-5 text-secondary">
+                            I'm passionate about neural networks and building full-stack applications that solve
+                            real-world problems.
+
+                            I have two summers of engineering experience at Google, where I shipped production code for
+                            Vertex AI and Apache Beam.
+                        </p>
+                        <div class="d-flex gap-3">
+                            <a href="#projects" class="btn btn-primary-custom">View Projects</a>
+                            <a href="#contact" class="btn btn-outline-custom">Contact Me</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 3D Model Container (Absolute Positioned) -->
+                <div id="three-container" class="d-none d-lg-block"
+                    style="position: absolute; right: 0; top: 0; width: 100%; height: 100%; z-index: 0;"></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2 class="mb-5"><span class="text-primary-custom">01.</span> About Me</h2>
+                        <p class="lead text-secondary">
+                            I am a Computer Science major at Colby College with a concentration in Artificial
+                            Intelligence.
+                            I'm passionate about neural networks and building full stack applications that solve
+                            real-world problems.
+                        </p>
+                        <p class="text-secondary">
+                            I have two summers of engineering experience at Google, where I shipped production code for
+                            Vertex AI and Google Cloud data processing (Apache Beam & Dataflow). On campus, I have
+                            served as a technical mentor for 10+ CS courses, where I enjoy debugging complex code and
+                            helping peers master advanced topics like Computer Architecture and Machine Learning.
+                        </p>
+
+                    </div>
                 </div>
             </div>
+        </section>
 
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <h4 class="text-white">Colby College</h4>
-                <p class="text-primary-custom mb-1">Student Laboratory Assistant & TA</p>
-                <p class="text-secondary small">Sep 2023 – Present | Waterville, ME</p>
-                <div class="text-secondary">
-                    <ul>
-                        <li>Assisting students at Mule Works Innovation Lab with 3D printers, electronics, and laser
-                            cutters.</li>
-                        <li>Teaching Assistant for Computer Organization (CS232), Operating Systems (CS337), and
-                            Computer Vision (CS166).</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <h4 class="text-white">Hack the Hood</h4>
-                <p class="text-primary-custom mb-1">Data Science Bootcamp Participant</p>
-                <p class="text-secondary small">Sep 2023 – Dec 2023 | Oakland, CA (Remote)</p>
-                <div class="text-secondary">
-                    <ul>
-                        <li>Trained on data science and machine learning with Python.</li>
-                        <li>Recognized as top 4 student out of 80 participants.</li>
-                    </ul>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects">
-        <div class="container">
-            <h2 class="mb-5"><span class="text-primary-custom">04.</span> Featured Projects</h2>
-            <div class="row g-4">
-                <!-- Mule Mart -->
-                <div class="col-md-6">
-                    <div class="card h-100">
-                        <div class="card-body p-4">
-                            <h3 class="h4 card-title">Mule Mart</h3>
-                            <p class="card-text mb-4">Full-stack e-commerce marketplace for the Colby community enabling
-                                verified users to securely buy, sell, and exchange messages in real time. Features
-                                <strong>AI-powered semantic search</strong> using vector embeddings.
-                            </p>
-                            <div class="mb-4">
+        <!-- Skills Section -->
+        <section id="skills">
+            <div class="container">
+                <h2 class="mb-5"><span class="text-primary-custom">02.</span> Technical Skills</h2>
+                <div class="row">
+                    <!-- Languages -->
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="card h-100 p-4">
+                            <h4 class="h5 mb-3 text-white"><i class="fas fa-code me-2 text-primary-custom"></i>
+                                Languages
+                            </h4>
+                            <div class="d-flex flex-wrap">
+                                <span class="badge-skill">Python</span>
+                                <span class="badge-skill">Go</span>
+                                <span class="badge-skill">Java</span>
+                                <span class="badge-skill">C</span>
+                                <span class="badge-skill">JavaScript</span>
+                                <span class="badge-skill">TypeScript</span>
+                                <span class="badge-skill">SQL</span>
+                                <span class="badge-skill">VHDL</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Frameworks -->
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="card h-100 p-4">
+                            <h4 class="h5 mb-3 text-white"><i class="fas fa-layer-group me-2 text-primary-custom"></i>
+                                Frameworks</h4>
+                            <div class="d-flex flex-wrap">
+                                <span class="badge-skill">FastAPI</span>
                                 <span class="badge-skill">Flask</span>
-                                <span class="badge-skill">PostgreSQL</span>
-                                <span class="badge-skill">AWS S3</span>
-                                <span class="badge-skill">PyTorch</span>
-                                <span class="badge-skill">Docker</span>
-                            </div>
-                            <div class="d-flex gap-2">
-                                <a href="https://github.com/Mule-Mart/Mule-Mart" target="_blank"
-                                    class="btn btn-sm btn-outline-custom"><i class="fab fa-github"></i> View Code</a>
-                                <a href="https://mulemart.com/" target="_blank" class="btn btn-sm btn-outline-custom"><i
-                                        class="fas fa-external-link-alt"></i> Visit Site</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- MuseAnalytics -->
-                <div class="col-md-6">
-                    <div class="card h-100">
-                        <div class="card-body p-4">
-                            <h3 class="h4 card-title">MuseAnalytics</h3>
-                            <p class="card-text mb-4">Real-time data logger and analytics platform for the Colby College Museum of Art
-                                providing interactive dashboards and data visualizations for museum staff using
-                                <strong>FastAPI</strong> and <strong>Next.js</strong>.</p>
-                            <div class="mb-4">
-                                <span class="badge-skill">FastAPI</span>
-                                <span class="badge-skill">Next.js</span>
                                 <span class="badge-skill">React</span>
-                                <span class="badge-skill">PostgreSQL</span>
-                                <span class="badge-skill">Redis</span>
-                                <span class="badge-skill">Docker</span>
+                                <span class="badge-skill">Next.js</span>
+                                <span class="badge-skill">Node.js</span>
+                                <span class="badge-skill">SQLAlchemy</span>
                             </div>
-                            <a href="https://github.com/Colby-Museum-Projects" target="_blank"
-                                class="btn btn-sm btn-outline-custom"><i class="fab fa-github"></i> View Code</a>
                         </div>
                     </div>
-                </div>
-
-                <!-- Vision Assistant -->
-                <div class="col-md-6">
-                    <div class="card h-100">
-                        <div class="card-body p-4">
-                            <h3 class="h4 card-title">Vision Assistant</h3>
-                            <p class="card-text mb-4">Assistive device for recognizing and reading text from
-                                surroundings using <strong>Raspberry Pi</strong> and <strong>Computer Vision</strong>.
-                                Features offline operation and distance measurement.</p>
-                            <div class="mb-4">
-                                <span class="badge-skill">Python</span>
-                                <span class="badge-skill">Raspberry Pi</span>
-                                <span class="badge-skill">OpenCV</span>
+                    <!-- Cloud & DevOps -->
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="card h-100 p-4">
+                            <h4 class="h5 mb-3 text-white"><i class="fas fa-cloud me-2 text-primary-custom"></i> Cloud &
+                                DevOps</h4>
+                            <div class="d-flex flex-wrap">
+                                <span class="badge-skill">Terraform</span>
+                                <span class="badge-skill">Docker</span>
+                                <span class="badge-skill">Kubernetes</span>
                                 <span class="badge-skill">GCP</span>
-                            </div>
-                            <div class="d-flex gap-2">
-                                <a href="https://github.com/francis-ohara/vision-assistant" target="_blank"
-                                    class="btn btn-sm btn-outline-custom"><i class="fab fa-github"></i> View Code</a>
-                                <a href="https://drive.google.com/file/d/1dGY-pkiFya33TB520JSz3KCiJE3PuShY/view?usp=sharing"
-                                    target="_blank" class="btn btn-sm btn-outline-custom"><i
-                                        class="fas fa-play-circle"></i> Watch Demo</a>
+                                <span class="badge-skill">AWS</span>
+                                <span class="badge-skill">GitHub Actions</span>
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <!-- Model Garden Agent -->
-                <div class="col-md-6">
-                    <div class="card h-100">
-                        <div class="card-body p-4">
-                            <h3 class="h4 card-title">Model Garden Agent</h3>
-                            <p class="card-text mb-4">Open-source clone of a project built at Google. AI Agent to
-                                search, deploy, and run inference on generative AI models on <strong>Vertex AI</strong>
-                                using ADK.</p>
-                            <div class="mb-4">
-                                <span class="badge-skill">Python</span>
-                                <span class="badge-skill">FastAPI</span>
+                    <!-- Data & AI -->
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="card h-100 p-4">
+                            <h4 class="h5 mb-3 text-white"><i class="fas fa-brain me-2 text-primary-custom"></i> Data &
+                                AI
+                            </h4>
+                            <div class="d-flex flex-wrap">
                                 <span class="badge-skill">Vertex AI</span>
-                                <span class="badge-skill">Google ADK</span>
-                                <span class="badge-skill">Docker</span>
+                                <span class="badge-skill">Apache Beam</span>
+                                <span class="badge-skill">PyTorch</span>
+                                <span class="badge-skill">TensorFlow</span>
+                                <span class="badge-skill">Scikit-Learn</span>
+                                <span class="badge-skill">Pandas</span>
+                                <span class="badge-skill">Matplotlib/Seaborn</span>
                             </div>
-                            <div class="d-flex gap-2">
-                                <a href="https://github.com/francis-ohara/model-garden-agent" target="_blank"
+                        </div>
+                    </div>
+                    <!-- Hardware & Embedded -->
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="card h-100 p-4">
+                            <h4 class="h5 mb-3 text-white"><i class="fas fa-microchip me-2 text-primary-custom"></i>
+                                Hardware</h4>
+                            <div class="d-flex flex-wrap">
+                                <span class="badge-skill">Raspberry Pi</span>
+                                <span class="badge-skill">Arduino</span>
+                                <span class="badge-skill">FPGA</span>
+                                <span class="badge-skill">3D Printing</span>
+                                <span class="badge-skill">Laser Cutting</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h5 class="text-white mt-4 mb-3">Relevant Coursework:</h5>
+                <div class="d-flex flex-wrap gap-2 mb-4">
+                    <span class="badge-skill">Software Engineering</span>
+                    <span class="badge-skill">Data Structures</span>
+                    <span class="badge-skill">Operating Systems</span>
+                    <span class="badge-skill">Computer Org</span>
+                    <span class="badge-skill">Neural Networks</span>
+                    <span class="badge-skill">Computer Vision</span>
+                    <span class="badge-skill">Statistical Modeling</span>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience">
+            <div class="container">
+                <h2 class="mb-5"><span class="text-primary-custom">03.</span> Experience</h2>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <h4 class="text-white">Google</h4>
+                    <p class="text-primary-custom mb-1">Software Engineering Intern</p>
+                    <p class="text-secondary small">May 2025 – Aug 2025 | Sunnyvale, CA</p>
+                    <div class="text-secondary">
+                        <ul>
+                            <li>Engineered a <strong>Terraform resource</strong> in <strong>Go</strong> for deploying
+                                generative AI models at scale on Google Cloud <strong>Vertex AI</strong>, unblocking a
+                                $19.2MM ARR opportunity for Google Cloud partners.</li>
+                            <li>Discovered and resolved a critical race condition in the Vertex AI backend preventing
+                                parallel deployments by refactoring ID generation logic to use cryptographically secure
+                                <strong>UUIDs</strong> in <strong>Java</strong>; validated fix with comprehensive
+                                <strong>JUnit</strong> and <strong>Mockito</strong> test suites.
+                            </li>
+                            <li>Implemented a chat-based <strong>AI agent</strong> for discovering, deploying, and
+                                running
+                                inference on large language models on Vertex AI using <strong>Python</strong> and Google
+                                Agent Development Kit (ADK).</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <h4 class="text-white">Google</h4>
+                    <p class="text-primary-custom mb-1">Software Engineering Intern</p>
+                    <p class="text-secondary small">May 2024 – Aug 2024 | Seattle, WA</p>
+                    <div class="text-secondary">
+                        <ul>
+                            <li>Engineered a high-performance, schema-aware <strong>Apache Beam</strong> transform in
+                                <strong>Java</strong> for processing CSV data, capable of achieving a throughput of
+                                <strong>3 billion+ CSV records/hour</strong> on <strong>Google Cloud Dataflow</strong>.
+                            </li>
+                            <li>Implemented robust fault tolerance by routing malformed records to a <strong>Dead Letter
+                                    Queue (DLQ)</strong>, ensuring zero data loss during the ingestion of multi-terabyte
+                                datasets.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <h4 class="text-white">Colby College</h4>
+                    <p class="text-primary-custom mb-1">Student Laboratory Assistant & TA</p>
+                    <p class="text-secondary small">Sep 2023 – Present | Waterville, ME</p>
+                    <div class="text-secondary">
+                        <ul>
+                            <li>Assisting students at Mule Works Innovation Lab with 3D printers, electronics, and laser
+                                cutters.</li>
+                            <li>Teaching Assistant for Computer Organization (CS232), Operating Systems (CS337), and
+                                Computer Vision (CS166).</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <h4 class="text-white">Hack the Hood</h4>
+                    <p class="text-primary-custom mb-1">Data Science Bootcamp Participant</p>
+                    <p class="text-secondary small">Sep 2023 – Dec 2023 | Oakland, CA (Remote)</p>
+                    <div class="text-secondary">
+                        <ul>
+                            <li>Trained on data science and machine learning with Python.</li>
+                            <li>Recognized as top 4 student out of 80 participants.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <div class="container">
+                <h2 class="mb-5"><span class="text-primary-custom">04.</span> Featured Projects</h2>
+                <div class="row g-4">
+                    <!-- Mule Mart -->
+                    <div class="col-md-6">
+                        <div class="card h-100">
+                            <div class="card-body p-4">
+                                <h3 class="h4 card-title">Mule Mart</h3>
+                                <p class="card-text mb-4">Full-stack e-commerce marketplace for the Colby community
+                                    enabling verified users to securely buy, sell, and exchange messages in real time.
+                                    Features
+                                    <strong>AI-powered semantic search</strong> using vector embeddings.
+                                </p>
+                                <div class="mb-4">
+                                    <span class="badge-skill">Flask</span>
+                                    <span class="badge-skill">PostgreSQL</span>
+                                    <span class="badge-skill">AWS S3</span>
+                                    <span class="badge-skill">PyTorch</span>
+                                    <span class="badge-skill">Docker</span>
+                                </div>
+                                <div class="d-flex gap-2">
+                                    <a href="https://github.com/Mule-Mart/Mule-Mart" target="_blank"
+                                        class="btn btn-sm btn-outline-custom"><i class="fab fa-github"></i> View
+                                        Code</a>
+                                    <a href="https://mulemart.com/" target="_blank"
+                                        class="btn btn-sm btn-outline-custom"><i class="fas fa-external-link-alt"></i>
+                                        Visit Site</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- MuseAnalytics -->
+                    <div class="col-md-6">
+                        <div class="card h-100">
+                            <div class="card-body p-4">
+                                <h3 class="h4 card-title">MuseAnalytics</h3>
+                                <p class="card-text mb-4">Real-time data logger and analytics platform for the Colby
+                                    College Museum of Art
+                                    providing interactive dashboards and data visualizations for museum staff using
+                                    <strong>FastAPI</strong> and <strong>Next.js</strong>.
+                                </p>
+                                <div class="mb-4">
+                                    <span class="badge-skill">FastAPI</span>
+                                    <span class="badge-skill">Next.js</span>
+                                    <span class="badge-skill">React</span>
+                                    <span class="badge-skill">PostgreSQL</span>
+                                    <span class="badge-skill">Redis</span>
+                                    <span class="badge-skill">Docker</span>
+                                </div>
+                                <a href="https://github.com/Colby-Museum-Projects" target="_blank"
                                     class="btn btn-sm btn-outline-custom"><i class="fab fa-github"></i> View Code</a>
-                                <a href="https://model-garden-agent-service-720465353719.us-central1.run.app/dev-ui/"
-                                    target="_blank" class="btn btn-sm btn-outline-custom"><i
-                                        class="fas fa-external-link-alt"></i> Visit Site</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Vision Assistant -->
+                    <div class="col-md-6">
+                        <div class="card h-100">
+                            <div class="card-body p-4">
+                                <h3 class="h4 card-title">Vision Assistant</h3>
+                                <p class="card-text mb-4">Assistive device for recognizing and reading text from
+                                    surroundings using <strong>Raspberry Pi</strong> and <strong>Computer
+                                        Vision</strong>.
+                                    Features offline operation and distance measurement.</p>
+                                <div class="mb-4">
+                                    <span class="badge-skill">Python</span>
+                                    <span class="badge-skill">Raspberry Pi</span>
+                                    <span class="badge-skill">OpenCV</span>
+                                    <span class="badge-skill">GCP</span>
+                                </div>
+                                <div class="d-flex gap-2">
+                                    <a href="https://github.com/francis-ohara/vision-assistant" target="_blank"
+                                        class="btn btn-sm btn-outline-custom"><i class="fab fa-github"></i> View
+                                        Code</a>
+                                    <a href="https://drive.google.com/file/d/1dGY-pkiFya33TB520JSz3KCiJE3PuShY/view?usp=sharing"
+                                        target="_blank" class="btn btn-sm btn-outline-custom"><i
+                                            class="fas fa-play-circle"></i> Watch Demo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Model Garden Agent -->
+                    <div class="col-md-6">
+                        <div class="card h-100">
+                            <div class="card-body p-4">
+                                <h3 class="h4 card-title">Model Garden Agent</h3>
+                                <p class="card-text mb-4">Open-source clone of a project built at Google. AI Agent to
+                                    search, deploy, and run inference on generative AI models on <strong>Vertex
+                                        AI</strong>
+                                    using ADK.</p>
+                                <div class="mb-4">
+                                    <span class="badge-skill">Python</span>
+                                    <span class="badge-skill">FastAPI</span>
+                                    <span class="badge-skill">Vertex AI</span>
+                                    <span class="badge-skill">Google ADK</span>
+                                    <span class="badge-skill">Docker</span>
+                                </div>
+                                <div class="d-flex gap-2">
+                                    <a href="https://github.com/francis-ohara/model-garden-agent" target="_blank"
+                                        class="btn btn-sm btn-outline-custom"><i class="fab fa-github"></i> View
+                                        Code</a>
+                                    <a href="https://model-garden-agent-service-720465353719.us-central1.run.app/dev-ui/"
+                                        target="_blank" class="btn btn-sm btn-outline-custom"><i
+                                            class="fas fa-external-link-alt"></i> Visit Site</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="text-center py-5">
-        <div class="container">
-            <h2 class="mb-4"><span class="text-primary-custom">05.</span> Get In Touch</h2>
-            <p class="lead text-secondary mb-5 mx-auto" style="max-width: 600px;">
-                I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll
-                try my best to get back to you!
-            </p>
-            <a href="mailto:francis.ohara@colby.edu" class="btn btn-primary-custom btn-lg">Say Hello</a>
+        <!-- Contact Section -->
+        <section id="contact" class="text-center py-5">
+            <div class="container">
+                <h2 class="mb-4"><span class="text-primary-custom">05.</span> Get In Touch</h2>
+                <p class="lead text-secondary mb-5 mx-auto" style="max-width: 600px;">
+                    I'm currently looking for new opportunities. Whether you have a question or just want to say hi,
+                    I'll
+                    try my best to get back to you!
+                </p>
+                <a href="mailto:francis.ohara@colby.edu" class="btn btn-primary-custom btn-lg">Say Hello</a>
 
-            <div class="mt-5 social-links">
-                <a href="https://linkedin.com/in/francis-ohara" target="_blank" class="text-secondary me-3 fs-3"><i
-                        class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/francis-ohara" target="_blank" class="text-secondary me-3 fs-3"><i
-                        class="fab fa-github"></i></a>
+                <div class="mt-5 social-links">
+                    <a href="https://linkedin.com/in/francis-ohara" target="_blank" class="text-secondary me-3 fs-3"><i
+                            class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/francis-ohara" target="_blank" class="text-secondary me-3 fs-3"><i
+                            class="fab fa-github"></i></a>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Footer -->
-    <footer class="text-center text-secondary">
-        <div class="container">
-            <p class="mb-0">Designed & Built by Francis O'Hara Aidoo</p>
-            <small>&copy; 2026</small>
-        </div>
-    </footer>
+        <!-- Footer -->
+        <footer class="text-center text-secondary">
+            <div class="container">
+                <p class="mb-0">Designed & Built by Francis O'Hara Aidoo</p>
+                <small>&copy; 2026</small>
+            </div>
+        </footer>
 
-    <!-- Three.js Import Map -->
-    <script type="importmap">
+        <!-- Three.js Import Map -->
+        <script type="importmap">
       {
         "imports": {
           "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
@@ -413,12 +429,12 @@
       }
     </script>
 
-    <!-- Custom Three.js Script -->
-    <script type="module" src="assets/js/three-scene.js"></script>
+        <!-- Custom Three.js Script -->
+        <script type="module" src="assets/js/three-scene.js"></script>
 
-    <!-- Bootstrap Bundle JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/main.js"></script>
-</body>
+        <!-- Bootstrap Bundle JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
 
 </html>
