@@ -4,12 +4,24 @@ title: "[BUG]: "
 labels: ["bug"]
 body:
   - type: textarea
-    id: description
+    id: actual-behavior
     attributes:
-      label: Bug Description
-      description: A clear and concise description of what the bug is.
+      label: Actual Behavior
+      description: What is currently happening?
     validations:
       required: true
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      description: What should be happening?
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: If applicable, add screenshots to help explain your problem.
   - type: textarea
     id: reproduction
     attributes:
