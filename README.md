@@ -1,60 +1,72 @@
 # Francis O'Hara Aidoo - Portfolio Website
 
-Welcome to my personal portfolio website! This project showcases my experience, skills, and projects as a Computer Science student and web developer. It features a modern, dark-themed design and interactive 3D elements.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Three.js](https://img.shields.io/badge/Three.js-Black?style=flat&logo=three.js)](https://threejs.org/)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-7952b3?style=flat&logo=bootstrap)](https://getbootstrap.com/)
 
-##  Live Demo
+Welcome to my personal portfolio website! This project showcases my experience, skills, and projects as a Computer Science student and Software Engineer. It features a modern, dark-themed design with interactive 3D elements and a focus on visual excellence.
+
+## 🚀 Live Demo
 [Check out the live site here](https://francisohara.com/)
 
-## Features
-*   **Modern Aesthetics**: GitHub-inspired dark mode styling with glassmorphism effects on the navbar.
-*   **Interactive 3D Hero**: Integrated **Three.js** scene featuring a rotating 3D model (`retro-computer.glb`) to create a dynamic first impression.
-*   **Responsive Design**: Built with **Bootstrap 5**, ensuring the site looks great on mobile, tablet, and desktop.
-*   **Smooth Navigation**: Sticky navbar with scroll-spy and smooth scrolling to sections.
-*   **Dynamic Content**: Custom-styled skill badges, experience timeline, and project cards with hover effects.
+## ✨ Features
+- **Modern Aesthetics**: GitHub-inspired dark mode styling with glassmorphism effects on the navbar.
+- **Interactive 3D Hero**: Integrated **Three.js** scene featuring a rotating 3D model (`retro-computer.glb`) to create a dynamic first impression.
+- **Responsive Design**: Built with **Bootstrap 5**, ensuring the site looks great on mobile, tablet, and desktop.
+- **Smooth Navigation**: Sticky navbar with scroll-spy and smooth scrolling to sections.
+- **Dynamic Content**: Custom-styled skill badges, experience timeline, and project cards with hover effects.
 
-## ️ Tech Stack
-*   **Core**: HTML5, CSS3, JavaScript (ES6+)
-*   **Framework**: Bootstrap 5.3
-*   **3D Graphics**: Three.js
-*   **Typography**: Inter (Google Fonts)
-*   **Icons**: Font Awesome 6
 
-##  Project Structure
-```
-francis-ohara.github.io/
+## 🛠️ Tech Stack
+- **Core**: HTML5, CSS3, JavaScript (ES6+)
+- **3D Graphics**: Three.js (WebGL)
+- **Framework**: Bootstrap 5.3
+- **Typography**: Inter (Google Fonts)
+- **Icons**: Font Awesome 6
+
+## 📁 Project Structure
+```text
+francisohara.com/
 ├── assets/
 │   ├── css/
-│   │   └── style.css       # Custom dark theme & animations
+│   │   └── style.css           # Custom dark theme & glassmorphism
 │   ├── images/
-│   │   ├── cyber_brain_ai.glb  # 3D Model
-│   │   └── profile_pic.jpg     # Profile image
+│   │   ├── profile_pic.jpg     # Profile image
+│   │   └── Favicon-Retro-Computer.png # Site favicon
+│   ├── models/
+│   │   └── retro-computer.glb  # 3D Hero Model
 │   └── js/
-│       ├── main.js         # UI logic (scroll, navbar)
-│       └── three-scene.js  # Three.js 3D scene config
-├── index.html              # Main application file
+│       ├── main.js             # UI logic & Scroll-spy
+│       └── three-scene.js      # Three.js scene & model loader
+├── index.html                  # Main application entry
 └── README.md
 ```
 
-## ️ Local Development
+## 💻 Local Development
 
-1.  **Clone the repository**:
-    ```bash
-    git clone https://github.com/francis-ohara/francis-ohara.github.io.git
-    cd francis-ohara.github.io
-    ```
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/francis-ohara/francisohara.com.git
+   cd francisohara.com
+   ```
 
-2.  **Run a local server**:
-    Since this project uses ES6 modules (for Three.js), you need a local server.
-    
-    *Using Python:*
-    ```bash
-    python3 -m http.server
-    ```
-    
-    *Using Node.js (http-server):*
-    ```bash
-    npx http-server
-    ```
+2. **Run a local server**:
+   Since this project uses ES6 modules (for Three.js), you need a local server.
 
-3.  **Open in Browser**:
-    Visit `http://localhost:8000` (or whatever port shows in your terminal).
+   *Using Python:*
+   ```bash
+   python3 -m http.server
+   ```
+
+   *Using Node.js (http-server):*
+   ```bash
+   npx http-server
+   ```
+
+3. **Open in Browser**:
+   Visit `http://localhost:8000` (or the port specified in your terminal).
+
+## 📩 Contact
+- **LinkedIn**: [linkedin.com/in/francis-ohara](https://linkedin.com/in/francis-ohara)
+- **Email**: [francis.ohara@colby.edu](mailto:francis.ohara@colby.edu)
+- **GitHub**: [@francis-ohara](https://github.com/francis-ohara)
