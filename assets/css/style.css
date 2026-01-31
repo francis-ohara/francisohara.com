@@ -172,4 +172,21 @@ footer {
 .btn-outline-custom:hover {
     background-color: rgba(88, 166, 255, 0.1);
     color: #ffffff;
+}.btn-outline-secondary-custom {
+    border: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
+    background: transparent;
+    font-weight: 600;
+    padding: 10px 24px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-outline-secondary-custom:hover {
+    background-color: rgba(139, 148, 158, 0.1);
+    color: #ffffff;
+    border-color: var(--secondary-color);
 }
