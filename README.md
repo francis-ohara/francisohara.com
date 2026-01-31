@@ -7,7 +7,7 @@ Welcome to my personal portfolio website! This project showcases my experience, 
 
 ## Features
 *   **Modern Aesthetics**: GitHub-inspired dark mode styling with glassmorphism effects on the navbar.
-*   **Interactive 3D Hero**: Integrated **Three.js** scene featuring a rotating 3D model (`cyber_brain_ai.glb`) to create a dynamic first impression.
+*   **Interactive 3D Hero**: Integrated **Three.js** scene featuring a rotating 3D model (`retro-computer.glb`) to create a dynamic first impression.
 *   **Responsive Design**: Built with **Bootstrap 5**, ensuring the site looks great on mobile, tablet, and desktop.
 *   **Smooth Navigation**: Sticky navbar with scroll-spy and smooth scrolling to sections.
 *   **Dynamic Content**: Custom-styled skill badges, experience timeline, and project cards with hover effects.

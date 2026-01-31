@@ -32,7 +32,7 @@ if (container) {
     let model; // Define model in outer scope
 
     const loader = new GLTFLoader();
-    loader.load('assets/images/computer_glow.glb', function (gltf) {
+    loader.load('assets/models/retro-computer.glb', function (gltf) {
         model = gltf.scene;
 
         model.scale.set(1, 1, 1);
