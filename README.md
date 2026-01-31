@@ -4,7 +4,12 @@
 [![Three.js](https://img.shields.io/badge/Three.js-Black?style=flat&logo=three.js)](https://threejs.org/)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-7952b3?style=flat&logo=bootstrap)](https://getbootstrap.com/)
 
-Welcome to my personal portfolio website! This project showcases my experience, skills, and projects as a Computer Science student and Software Engineer. It features a modern, dark-themed design with interactive 3D elements and a focus on visual excellence.
+<div align="center">
+  <img src="assets/images/site-preview.png" alt="Project Screenshot" width="800">
+</div>
+
+Welcome to my personal portfolio website! This project showcases my experience, skills, and projects as a Computer Science student and Software Engineer.  
+It features a modern, dark-themed design with interactive 3D elements and a focus on visual excellence.
 
 ## 🚀 Live Demo
 [Check out the live site here](https://francisohara.com/)
@@ -32,13 +37,18 @@ francisohara.com/
 │   │   └── style.css           # Custom dark theme & glassmorphism
 │   ├── images/
 │   │   ├── profile_pic.jpg     # Profile image
+│   │   ├── site-preview.png    # Live Preview Placeholder
 │   │   └── Favicon-Retro-Computer.png # Site favicon
 │   ├── models/
 │   │   └── retro-computer.glb  # 3D Hero Model
 │   └── js/
 │       ├── main.js             # UI logic & Scroll-spy
 │       └── three-scene.js      # Three.js scene & model loader
+├── data/
+│   ├── RESUME.md
+│   └── LINKEDIN.md
 ├── index.html                  # Main application entry
+├── LICENSE                     # MIT License
 └── README.md
 ```
 
@@ -68,5 +78,5 @@ francisohara.com/
 
 ## 📩 Contact
 - **LinkedIn**: [linkedin.com/in/francis-ohara](https://linkedin.com/in/francis-ohara)
-- **Email**: [francis.ohara@colby.edu](mailto:francis.ohara@colby.edu)
+- **Email**: [franciskohara@gmail.com](mailto:franciskohara@gmail.com)
 - **GitHub**: [@francis-ohara](https://github.com/francis-ohara)
